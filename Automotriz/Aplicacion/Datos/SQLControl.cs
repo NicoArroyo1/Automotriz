@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aplicacion.Dominio;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -45,6 +46,62 @@ namespace Aplicacion.Datos
             return dt;
         }
 
+        #region Alexis
+        public void EjecutarSQL(string query)
+        {
+            cnn.Open();
+            cmd = new SqlCommand();
+            cmd.Connection = cnn;
+            cmd.CommandText = query;
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+        }
+
+        public void EliminarSQL(int codigo)
+        {
+            cnn.Open();
+            SqlCommand cmd = new SqlCommand("eliminar", cnn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@cod_producto", codigo);
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+        }
+
+        public void InsertarSQL(Autoparte autoparte)
+        {
+            cnn.Open();
+            SqlCommand cmd = new SqlCommand("sp_insertar", cnn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@nro_serie", autoparte.nroSerie);
+            cmd.Parameters.AddWithValue("@cod_tipo_producto", autoparte.cod_tipo_producto);
+            cmd.Parameters.AddWithValue("@cod_modelo", autoparte.cod_modelo);
+            cmd.Parameters.AddWithValue("@color", autoparte.color);
+            cmd.Parameters.AddWithValue("@cod_tipo_vehiculo", autoparte.cod_tipo_vehiculo);
+            cmd.Parameters.AddWithValue("@pre_unitario", autoparte.pre_unitario);
+            cmd.Parameters.AddWithValue("@fecha_fabricacion", autoparte.fecha_fabricacion);
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+        }
+
+        public void Updatear(Autoparte autoparte)
+        {
+            cnn.Open();
+            SqlCommand cmd = new SqlCommand("sp_modificar", cnn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@cod_producto", autoparte.codigo);
+            cmd.Parameters.AddWithValue("@nro_serie", autoparte.nroSerie);
+            cmd.Parameters.AddWithValue("@cod_tipo_producto", autoparte.cod_tipo_producto);
+            cmd.Parameters.AddWithValue("@cod_modelo", autoparte.cod_modelo);
+            cmd.Parameters.AddWithValue("@color", autoparte.color);
+            cmd.Parameters.AddWithValue("@cod_tipo_vehiculo", autoparte.cod_tipo_vehiculo);
+            cmd.Parameters.AddWithValue("@pre_unitario", autoparte.pre_unitario);
+            cmd.Parameters.AddWithValue("@fecha_fabricacion", autoparte.fecha_fabricacion);
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+        }
+        #endregion
+
+        #region modelo insert m/d
         /*   CAMBIAR PARA DOMINIO
          *   
         public bool InsertarMD(Factura oFactura)
@@ -114,6 +171,7 @@ namespace Aplicacion.Datos
         }
 
         */
+        #endregion
 
 
         public int Login(string usario, string pass)
@@ -135,7 +193,7 @@ namespace Aplicacion.Datos
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message);
+                return -1;
             }
             finally
             {

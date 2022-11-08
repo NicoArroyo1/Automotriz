@@ -152,7 +152,7 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "¿Has olvidado la clave?";
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -167,8 +167,8 @@
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.lbContra);
             this.Controls.Add(this.lbUsario);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
