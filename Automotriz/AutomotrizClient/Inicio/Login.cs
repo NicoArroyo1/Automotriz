@@ -1,4 +1,6 @@
-namespace Login
+using Aplicacion.Datos;
+
+namespace AutomotrizClient
 {
     public partial class Login : Form
     {

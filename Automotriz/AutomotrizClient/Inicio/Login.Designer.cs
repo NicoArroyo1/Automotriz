@@ -1,4 +1,4 @@
-﻿namespace Login
+﻿namespace AutomotrizClient
 {
     partial class Login
     {

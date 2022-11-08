@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Printing;
 using System.Drawing;
+using Aplicacion.Datos;
 
-namespace Login
+namespace AutomotrizClient
 {
     public partial class Consultas : Form
     {
