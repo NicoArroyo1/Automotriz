@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Biblioteca\\Escritorio\\Automotriz\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "E:\\Biblioteca\\Escritorio\\Automotriz\\Aplicacion\\Aplicacion.csproj",
+      "projectPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj",
       "packagesPath": "C:\\Users\\nicoo\\.nuget\\packages\\",
-      "outputPath": "E:\\Biblioteca\\Escritorio\\Automotriz\\Aplicacion\\obj\\",
+      "outputPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nicoo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VQyjVqfZybX7/Fqa+zMidelPgv/lkZeuwPddEEYFhIKXN6nRBOtIo8v8XvzrnSVs7lox8NTNw7BdBOJkHjJrRQ==",
+  "dgSpecHash": "bxOfBatHGTv70snHQ17s7VRRmStEyOJHefMPxPIzeSb0E/m/+R/8oKwK4TNHbolC+UnXRp2fNl1meiORMc0b4Q==",
   "success": true,
-  "projectFilePath": "E:\\Biblioteca\\Escritorio\\Automotriz\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicoo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\nicoo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

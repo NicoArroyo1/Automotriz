@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Biblioteca\\Escritorio\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj": {}
+    "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj": {}
   },
   "projects": {
-    "E:\\Biblioteca\\Escritorio\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj": {
+    "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Biblioteca\\Escritorio\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj",
+        "projectUniqueName": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj",
         "projectName": "AutomotrizWebAPI",
-        "projectPath": "E:\\Biblioteca\\Escritorio\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj",
+        "projectPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj",
         "packagesPath": "C:\\Users\\nicoo\\.nuget\\packages\\",
-        "outputPath": "E:\\Biblioteca\\Escritorio\\Automotriz\\AutomotrizWebAPI\\obj\\",
+        "outputPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicoo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Biblioteca\\Escritorio\\Automotriz\\AutomotrizClient\\AutomotrizClient.csproj",
+      "projectUniqueName": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizClient\\AutomotrizClient.csproj",
       "projectName": "AutomotrizClient",
-      "projectPath": "E:\\Biblioteca\\Escritorio\\Automotriz\\AutomotrizClient\\AutomotrizClient.csproj",
+      "projectPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizClient\\AutomotrizClient.csproj",
       "packagesPath": "C:\\Users\\nicoo\\.nuget\\packages\\",
-      "outputPath": "E:\\Biblioteca\\Escritorio\\Automotriz\\AutomotrizClient\\obj\\",
+      "outputPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nicoo\\AppData\\Roaming\\NuGet\\NuGet.Config",

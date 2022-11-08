@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GH/i9TTfVpjn3rGQeuW5554dLHiz/AscYcSXqdKB16XBloMI2kaBobS1rW/C+el/y9fc60rEznUTp0GM7OwdTA==",
+  "dgSpecHash": "QTmpNDfxRfVYaPexwT/6qJ3r7GKdhYXAU3vjB6fnjK3e9LOP9AF3xFyrXV+B1d5hW3nq1vStSa8YgKt0HcQMiA==",
   "success": true,
-  "projectFilePath": "E:\\Biblioteca\\Escritorio\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj",
+  "projectFilePath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizWebAPI\\AutomotrizWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicoo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\nicoo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
