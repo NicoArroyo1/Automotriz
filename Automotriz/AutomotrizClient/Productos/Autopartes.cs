@@ -27,7 +27,7 @@ namespace AutomotrizClient
 
         private void Autopartes_Load(object sender, EventArgs e)
         {
-            cargarcomboModelosAsync();
+            cargarcomboModelos();
             cargarcomboVehiculosAsync();
             inicio();
             limpiar();
@@ -69,7 +69,7 @@ namespace AutomotrizClient
             cboVehiculos.SelectedIndex = -1;
         }
 
-        private async void cargarcomboModelosAsync()
+        private void cargarcomboModelos()
         {
             cboModelos.DataSource = data.ConsultarSQL("select * from modelos");
             cboModelos.ValueMember = "cod_modelo";

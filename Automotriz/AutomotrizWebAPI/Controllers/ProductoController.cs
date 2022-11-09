@@ -61,7 +61,7 @@ namespace AutomotrizWebAPI.Controllers
                 return StatusCode(500, "Error interno! Intente luego");
             }
         }
-
+        /*
         [HttpGet("/automoviles")]
         public IActionResult GetAutomoviles()
         {
@@ -76,7 +76,7 @@ namespace AutomotrizWebAPI.Controllers
                 return StatusCode(500, "Error interno! Intente luego");
             }
         }
-
+        */
         
 
 
