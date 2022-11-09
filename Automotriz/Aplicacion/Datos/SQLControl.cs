@@ -22,6 +22,7 @@ namespace Aplicacion.Datos
             conexionString = @"Data Source=PC-NICO\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True";
             cnn = new SqlConnection(conexionString);
         }
+
         public DataTable ConsultarSQL(string query)
         {
             cnn.Open();
@@ -44,6 +45,26 @@ namespace Aplicacion.Datos
             cnn.Close();
 
             return dt;
+        }
+
+        public List<Modelo> ObtenerModelos()
+        {
+            List<Modelo> lst = new List<Modelo>();
+
+            string query = "select * from Modelos";
+            DataTable t = this.ConsultarSQL(query);
+
+            foreach (DataRow dr in t.Rows)
+            {
+                //Mapear un registro a un objeto del modelo de dominio
+                int codigo = int.Parse(dr["cod_modelo"].ToString());
+                string nombre = dr["modelo"].ToString();
+                
+                Modelo aux = new Modelo(codigo, nombre);
+                lst.Add(aux);
+            }
+
+            return lst;
         }
 
         #region Alexis
