@@ -16,5 +16,10 @@ namespace Aplicacion.Dominio
         public int pre_unitario { get; set; }
         public DateTime fecha_fabricacion { get; set; }
         public int codigo { get; set; }
+
+        public Autoparte()
+        {
+
+        }
     }
 }

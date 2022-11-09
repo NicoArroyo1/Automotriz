@@ -1,5 +1,7 @@
 ﻿using Aplicacion.Datos;
 using Aplicacion.Dominio;
+using AutomotrizClient.Http;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,6 +9,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -24,8 +27,8 @@ namespace AutomotrizClient
 
         private void Autopartes_Load(object sender, EventArgs e)
         {
-            cargarcomboModelos();
-            cargarcomboVehiculos();
+            cargarcomboModelosAsync();
+            cargarcomboVehiculosAsync();
             inicio();
             limpiar();
             checkTodos.Checked = true;
@@ -55,15 +58,18 @@ namespace AutomotrizClient
             btnGuardarEdit.Enabled = false;
         }
 
-        private void cargarcomboVehiculos()
+        private async void cargarcomboVehiculosAsync()
         {
-            cboVehiculos.DataSource = data.ConsultarSQL("select * from tipos_vehiculos");
-            cboVehiculos.ValueMember = "cod_tipo_vehiculo";
-            cboVehiculos.DisplayMember = "descripcion";
+            string url = "http://localhost:5127/tipos_vehiculos";
+            var res = await ClientSingleton.GetInstance().GetAsync(url);
+            var lst = JsonConvert.DeserializeObject<List<Automovil>>(res);
+            cboVehiculos.DataSource = lst;
+            cboVehiculos.ValueMember = "Codigo";
+            cboVehiculos.DisplayMember = "Tipo";
             cboVehiculos.SelectedIndex = -1;
         }
 
-        private void cargarcomboModelos()
+        private async void cargarcomboModelosAsync()
         {
             cboModelos.DataSource = data.ConsultarSQL("select * from modelos");
             cboModelos.ValueMember = "cod_modelo";
@@ -216,6 +222,11 @@ namespace AutomotrizClient
             inicio();
             limpiar();
             LabelEdit.Visible = false;
+        }
+
+        private void cboVehiculos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

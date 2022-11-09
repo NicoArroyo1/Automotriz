@@ -61,7 +61,7 @@ namespace Aplicacion.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a @&quot;Data Source=PC-NICO\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True&quot;.
+        ///   Busca una cadena traducida similar a Data Source=PC-NICO\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True.
         /// </summary>
         internal static string CadenaConexion1 {
             get {
@@ -70,7 +70,7 @@ namespace Aplicacion.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a @&quot;Data Source=WS73116\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True&quot;.
+        ///   Busca una cadena traducida similar a Data Source=WS73116\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True.
         /// </summary>
         internal static string CadenaConexion2 {
             get {

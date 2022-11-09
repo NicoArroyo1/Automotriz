@@ -59,7 +59,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 6</value>
+    <value>177, 6</value>
   </data>
   <data name="toolStripTextBox3.Text" xml:space="preserve">
     <value>Autos</value>
@@ -70,38 +70,26 @@
   <data name="toolStripTextBox2.Text" xml:space="preserve">
     <value>Facturas</value>
   </data>
-  <data name="toolStripTextBox10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
   <data name="toolStripTextBox10.Text" xml:space="preserve">
     <value>Personas</value>
   </data>
   <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="toolStripMenuItem5.Text" xml:space="preserve">
     <value>Informes</value>
   </data>
-  <data name="toolStripTextBox11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
   <data name="toolStripTextBox11.Text" xml:space="preserve">
     <value>Automovil</value>
   </data>
-  <data name="toolStripTextBox12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
   <data name="toolStripTextBox12.Text" xml:space="preserve">
     <value>Autoparte</value>
-  </data>
-  <data name="toolStripTextBox13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
   </data>
   <data name="toolStripTextBox13.Text" xml:space="preserve">
     <value>Persona</value>
   </data>
   <data name="toolStripTextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="toolStripTextBox1.Text" xml:space="preserve">
     <value>Alta</value>
@@ -114,9 +102,6 @@
   </data>
   <data name="toolStripTextBox8.Text" xml:space="preserve">
     <value>Cerrar Cuenta</value>
-  </data>
-  <data name="toolStripTextBox14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
   </data>
   <data name="toolStripTextBox14.Text" xml:space="preserve">
     <value>Alta de Usuario</value>

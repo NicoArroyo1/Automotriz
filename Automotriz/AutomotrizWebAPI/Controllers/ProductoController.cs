@@ -31,6 +31,7 @@ namespace AutomotrizWebAPI.Controllers
             }
         }
 
+        
         [HttpGet("/tipos_vehiculos")]
         public IActionResult GetTiposVehiculos()
         {
@@ -46,8 +47,6 @@ namespace AutomotrizWebAPI.Controllers
             }
         }
 
-
-
         [HttpGet("/autopartes")]
         public IActionResult GetAutopartes()
         {
@@ -57,7 +56,7 @@ namespace AutomotrizWebAPI.Controllers
                 lst = oConexion.ObtenerAutopartes();
                 return Ok(lst);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, "Error interno! Intente luego");
             }

@@ -87,6 +87,7 @@
             this.cboVehiculos.Name = "cboVehiculos";
             this.cboVehiculos.Size = new System.Drawing.Size(285, 23);
             this.cboVehiculos.TabIndex = 2;
+            this.cboVehiculos.SelectedIndexChanged += new System.EventHandler(this.cboVehiculos_SelectedIndexChanged);
             // 
             // dtPicker
             // 

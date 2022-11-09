@@ -19,7 +19,7 @@ namespace Aplicacion.Datos
 
         public SQLControl()
         {
-            conexionString = @"Data Source=PC-NICO\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True";
+            conexionString = Properties.Resources.CadenaConexion2;
             cnn = new SqlConnection(conexionString);
         }
 
@@ -70,7 +70,7 @@ namespace Aplicacion.Datos
         {
             List<TipoVehiculo> lst = new List<TipoVehiculo>();
 
-            string query = "select * from Modelos";
+            string query = "select * from Tipos_vehiculos";
             DataTable t = this.ConsultarSQL(query);
 
             foreach (DataRow dr in t.Rows)
@@ -80,6 +80,25 @@ namespace Aplicacion.Datos
 
                 TipoVehiculo aux = new TipoVehiculo(codigo, tipo);
                 lst.Add(aux);
+            }
+
+            return lst;
+        }
+
+        public List<Autoparte> ObtenerAutopartes()
+        {
+            List<Autoparte> lst = new List<Autoparte>();
+
+            string query = "select * from Productos where cod_tipo_producto = 1";
+            DataTable t = this.ConsultarSQL(query);
+
+            foreach (DataRow dr in t.Rows)
+            {
+                int codigo = int.Parse(dr["cod_tipo_producto"].ToString());
+                string tipo = dr["descripcion"].ToString();
+
+                //Autoparte aux = new Autoparte(codigo, tipo);
+                //lst.Add(aux);
             }
 
             return lst;

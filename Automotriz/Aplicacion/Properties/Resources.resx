@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CadenaConexion1" xml:space="preserve">
-    <value>@"Data Source=PC-NICO\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True"</value>
+    <value>Data Source=PC-NICO\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True</value>
     <comment>casa nico</comment>
   </data>
   <data name="CadenaConexion2" xml:space="preserve">
-    <value>@"Data Source=WS73116\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True"</value>
+    <value>Data Source=WS73116\SQLEXPRESS;Initial Catalog=AutomotrizTP;Integrated Security=True</value>
     <comment>trabajo nico</comment>
   </data>
 </root>

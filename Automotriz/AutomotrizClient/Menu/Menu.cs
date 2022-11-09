@@ -50,5 +50,11 @@ namespace AutomotrizClient
         {
             this.Close();
         }
+
+        private void toolStripTextBox12_Click(object sender, EventArgs e)
+        {
+            Autopartes frmAutop = new Autopartes();
+            frmAutop.ShowDialog();
+        }
     }
 }

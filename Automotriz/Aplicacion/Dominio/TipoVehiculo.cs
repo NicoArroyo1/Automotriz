@@ -15,7 +15,7 @@ namespace Aplicacion.Dominio
         public TipoVehiculo(int codigo, string tipo)
         {
             Codigo = codigo;
-            Tipo = tipo;    
+            Tipo = tipo;
         }
     }
 }
