@@ -488,19 +488,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicoo\\.nuget\\packages\\": {}
+    "C:\\Users\\20418473593\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizClient\\AutomotrizClient.csproj",
+      "projectUniqueName": "C:\\Users\\20418473593\\Desktop\\GitHub\\Automotriz\\Automotriz\\AutomotrizClient\\AutomotrizClient.csproj",
       "projectName": "AutomotrizClient",
-      "projectPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizClient\\AutomotrizClient.csproj",
-      "packagesPath": "C:\\Users\\nicoo\\.nuget\\packages\\",
-      "outputPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\AutomotrizClient\\obj\\",
+      "projectPath": "C:\\Users\\20418473593\\Desktop\\GitHub\\Automotriz\\Automotriz\\AutomotrizClient\\AutomotrizClient.csproj",
+      "packagesPath": "C:\\Users\\20418473593\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\20418473593\\Desktop\\GitHub\\Automotriz\\Automotriz\\AutomotrizClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\20418473593\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -514,8 +514,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\20418473593\\Desktop\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\20418473593\\Desktop\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

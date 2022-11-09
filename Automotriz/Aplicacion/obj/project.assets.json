@@ -470,19 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicoo\\.nuget\\packages\\": {}
+    "C:\\Users\\20418473593\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\20418473593\\Desktop\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\nicoo\\.nuget\\packages\\",
-      "outputPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\obj\\",
+      "projectPath": "C:\\Users\\20418473593\\Desktop\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\20418473593\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\20418473593\\Desktop\\GitHub\\Automotriz\\Automotriz\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\20418473593\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

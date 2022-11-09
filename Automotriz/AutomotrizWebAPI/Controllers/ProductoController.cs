@@ -16,6 +16,38 @@ namespace AutomotrizWebAPI.Controllers
             oConexion = new SQLControl();
         }
 
+        [HttpGet("/modelos")]
+        public IActionResult GetModelos()
+        {
+            List<Modelo> lst = null;
+            try
+            {
+                lst = oConexion.ObtenerModelos();
+                return Ok(lst);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Error interno! Intente luego");
+            }
+        }
+
+        [HttpGet("/tipos_vehiculos")]
+        public IActionResult GetTiposVehiculos()
+        {
+            List<TipoVehiculo> lst = null;
+            try
+            {
+                lst = oConexion.ObtenerTiposVehiculos();
+                return Ok(lst);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Error interno! Intente luego");
+            }
+        }
+
+
+
         [HttpGet("/autopartes")]
         public IActionResult GetAutopartes()
         {
@@ -40,41 +72,13 @@ namespace AutomotrizWebAPI.Controllers
                 lst = oConexion.ObtenerAutomoviles();
                 return Ok(lst);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, "Error interno! Intente luego");
             }
         }
 
-        [HttpGet("/modelos")]
-        public IActionResult GetModelos()
-        {
-            List<Autoparte> lst = null;
-            try
-            {
-                lst = oConexion.ObtenerModelos();
-                return Ok(lst);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, "Error interno! Intente luego");
-            }
-        }
-
-        [HttpGet("/tipos_vehiculos")]
-        public IActionResult GetTiposVehiculos()
-        {
-            List<Autoparte> lst = null;
-            try
-            {
-                lst = oConexion.ObtenerTiposVehiculos();
-                return Ok(lst);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, "Error interno! Intente luego");
-            }
-        }
+        
 
 
 

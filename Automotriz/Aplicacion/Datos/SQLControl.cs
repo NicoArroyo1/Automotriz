@@ -56,11 +56,29 @@ namespace Aplicacion.Datos
 
             foreach (DataRow dr in t.Rows)
             {
-                //Mapear un registro a un objeto del modelo de dominio
                 int codigo = int.Parse(dr["cod_modelo"].ToString());
                 string nombre = dr["modelo"].ToString();
                 
                 Modelo aux = new Modelo(codigo, nombre);
+                lst.Add(aux);
+            }
+
+            return lst;
+        }
+
+        public List<TipoVehiculo> ObtenerTiposVehiculos()
+        {
+            List<TipoVehiculo> lst = new List<TipoVehiculo>();
+
+            string query = "select * from Modelos";
+            DataTable t = this.ConsultarSQL(query);
+
+            foreach (DataRow dr in t.Rows)
+            {
+                int codigo = int.Parse(dr["cod_tipo_vehiculo"].ToString());
+                string tipo = dr["descripcion"].ToString();
+
+                TipoVehiculo aux = new TipoVehiculo(codigo, tipo);
                 lst.Add(aux);
             }
 
