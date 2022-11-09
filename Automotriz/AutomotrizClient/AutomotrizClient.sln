@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomotrizClient", "AutomotrizClient.csproj", "{43526BF9-E796-4B56-8B91-3BB73D0598F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomotrizClient", "AutomotrizClient.csproj", "{43526BF9-E796-4B56-8B91-3BB73D0598F3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{64B1E60C-4ECF-418D-A27C-03FC4B3780AE} = {64B1E60C-4ECF-418D-A27C-03FC4B3780AE}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion", "..\Aplicacion\Aplicacion.csproj", "{64B1E60C-4ECF-418D-A27C-03FC4B3780AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplicacion", "..\Aplicacion\Aplicacion.csproj", "{64B1E60C-4ECF-418D-A27C-03FC4B3780AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomotrizWebAPI", "..\AutomotrizWebAPI\AutomotrizWebAPI.csproj", "{CAEB692B-5C45-4D72-B477-CDB7D43044B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomotrizWebAPI", "..\AutomotrizWebAPI\AutomotrizWebAPI.csproj", "{CAEB692B-5C45-4D72-B477-CDB7D43044B3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{64B1E60C-4ECF-418D-A27C-03FC4B3780AE} = {64B1E60C-4ECF-418D-A27C-03FC4B3780AE}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reportes", "..\Reportes\Reportes.csproj", "{167899D9-664D-483C-BDCD-03C0B96DFF04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CAEB692B-5C45-4D72-B477-CDB7D43044B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAEB692B-5C45-4D72-B477-CDB7D43044B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAEB692B-5C45-4D72-B477-CDB7D43044B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167899D9-664D-483C-BDCD-03C0B96DFF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167899D9-664D-483C-BDCD-03C0B96DFF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167899D9-664D-483C-BDCD-03C0B96DFF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167899D9-664D-483C-BDCD-03C0B96DFF04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
